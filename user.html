@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的第一个网站屌不屌</title>
+</head>
+<body>
+    <h1>用户注册表单</h1>
+    <form action="#" method="post">
+        <label for="username">用户名：</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">密码：</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="confirm_password">确认密码：</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+        
+        <label>性别：</label>
+        <input type="radio" id="male" name="gender" value="男">
+        <label for="male">男</label>
+        <input type="radio" id="female" name="gender" value="女">
+        <label for="female">女</label><br><br>
+        
+        <label>兴趣爱好：</label><br>
+        <input type="checkbox" id="reading" name="interests" value="阅读">
+        <label for="reading">阅读</label><br>
+        <input type="checkbox" id="sports" name="interests" value="运动">
+        <label for="sports">运动</label><br>
+        <input type="checkbox" id="music" name="interests" value="音乐">
+        <label for="music">音乐</label><br>
+        <input type="checkbox" id="programming" name="interests" value="编程">
+        <label for="programming">编程</label><br><br>
+        
+        <label for="city">所在城市：</label>
+        <select id="city" name="city">
+            <option value="北京">北京</option>
+            <option value="上海">上海</option>
+            <option value="广州">广州</option>
+            <option value="深圳">深圳</option>
+            <option value="杭州">杭州</option>
+        </select><br><br>
+        
+        <label for="bio">个人简介：</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="提交">
+        <input type="reset" value="重置">
+    </form>
+</body>
+</html>
